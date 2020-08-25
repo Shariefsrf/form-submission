@@ -1,0 +1,42 @@
+body{
+    background-color: #000202;
+}
+.container{
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+    height: 400px;
+    overflow-y: auto;
+    color: black;
+    border: 10px solid #01a3a4;
+    border-radius: 10px; 
+    text-align: center;
+}
+.box{
+    width: fit-content;
+    height: 30px;
+    margin: 10px auto;
+    
+}
+
+h1{
+    text-align: center;
+}
+.test{
+    padding: 10px;
+    
+}
+.button{
+    width: 25%;
+    background: green;
+    border: black;
+    height: 30px;
+    margin-top: 2px;
+    cursor: pointer;
+    color: blanchedalmond;
+}
+.button :hover{
+    transform: scale(1.05)
+}
